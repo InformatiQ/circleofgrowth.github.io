@@ -1,0 +1,77 @@
+baseURL: "https://circleofgrowth.net"
+languageCode: "en-us"
+title: "Circle Coaching"
+theme: profile-ng
+
+Paginate: 3
+#disqusShortname: gurusabarish
+#googleAnalytics: G-N25TY2TYNR 
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+enableEmoji: True
+
+params:
+  title: "Circle"
+  description: Leadership coaching. 
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/images/favicon.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    disableThemeToggle: True
+    defaultTheme: "light" # dark
+  
+  # Site home
+  hero:
+    enable: true
+    title: "Circle of Growth"
+    subtitle: |-
+      Accelerators of growth for leaders
+
+    content: |-
+      We work with aspiring leaders to help them achieve their goals and improve their performance.  
+       
+    image: "/images/hero.png"
+    button:
+      enable: true
+      name: "Schedule a call"
+      url: "https://cal.com/ramezhanna/short"
+      download: false
+
+  sections:
+    - Name: "Aboutme"
+      enable: true
+      title: "About Me"
+      image: "/images/ICC-IAC-style1.png"
+      content: |-
+        I had a career as an individual contributor in tech. Part of my job was to mentor less experienced engineers.  
+        Later I moved into management, and started managing teams. This time mentoring was a big part of my job, both mentoring engineers and less experienced managers.  
+        I always found mentoring useful, but for me, I didn't want advice, I was more looking to learn things myself, finding my way. That's when I learned about coaching.  
+        
+        I started integrating it into my tools as a manager. Quite a powerful tool too.  
+        Coaching others helped me personally get better, and as I am who I am I did coaching in my own way after a lot of reading and experimenting with styles.  
+        Later I had my own coaching experience as a coacheewhich was amazing experience. An eye-opener.  
+        
+        I have learned by doing, and went for coaching training. I have been able to help managers and engineers with their growth journeys and this has given me tremendous satisfaction. Coaching is quite rewarding and humbling.  
+        Today I am here to be available for a bigger audience. <a href="#" data-bs-toggle="modal" data-bs-target="#bookme">Book a free call</a>, let's talk.
+    - Name: "Contact"
+      enable: true
+      title: "Contact"
+      content: |-
+        For any questions or inquiries feel free to message me over [LinkedIn](https://www.linkedin.com/in/ramezhanna/) or email me at rhanna at informatiq dot org
+
+  footer:
+    recentPosts: false
+    socialNetworks:
+      linkedin: https://linkedin.com/in/ramezhanna/
