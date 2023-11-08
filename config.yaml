@@ -1,6 +1,6 @@
 baseURL: "https://circleofgrowth.net"
 languageCode: "en-us"
-title: "Circle Coaching"
+title: "Circle of Growth"
 theme: profile-ng
 
 Paginate: 3
@@ -67,11 +67,11 @@ params:
         Today I am here to be available for a bigger audience. <a href="#" data-bs-toggle="modal" data-bs-target="#bookme">Book a free call</a>, let's talk.
     - Name: "Contact"
       enable: true
-      title: "Contact"
+      title: "Contact":
       content: |-
-        For any questions or inquiries feel free to message me over [LinkedIn](https://www.linkedin.com/in/ramezhanna/) or email me at rhanna at informatiq dot org
+        For any questions or inquiries feel free to message me over [LinkedIn](https://www.linkedin.com/in/ramezhanna/) or email me at rhanna at circleofgrowth dot net
 
   footer:
     recentPosts: false
     socialNetworks:
-      linkedin: https://linkedin.com/in/ramezhanna/
+      linkedin: https://www.linkedin.com/in/ramezhanna/
