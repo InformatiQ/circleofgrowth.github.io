@@ -16,8 +16,11 @@ enableEmoji: True
 
 params:
   color:
-      textColor: "#618812"
-      secondaryTextColor: "##88ba14"
+      textColor: "#81af26"
+      #secondaryTextColor: "#311D3F"
+      #backgroundColor: "#34BE82" 
+      primaryColor: "#618812"
+      secondaryColor: "#000000"
   
   title: "Circle"
   description: Leadership coaching. 
