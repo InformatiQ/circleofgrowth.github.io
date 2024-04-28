@@ -203,14 +203,14 @@ header .navbar.animate {
     width: 100%;
 }
 
-/* generic */
+/* generic 
 
 .generic:nth-of-type(odd) {
     background-color:#FFFFFF;
 }
     
 .generic:nth-of-type(even) {
-    background-color:olivedrab;
+    background-color:var(--secondary-color);
 }
 
 #genericimage .tall {
@@ -221,6 +221,7 @@ header .navbar.animate {
     border-radius: 1rem;
     height: 150%;
 }
+*/
 
 /* about me */
 #about h3 {

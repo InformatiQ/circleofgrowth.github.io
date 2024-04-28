@@ -15,12 +15,13 @@ markup:
 enableEmoji: True
 
 params:
+  customCSS: true
   color:
       textColor: "#161616"
       #secondaryTextColor: "#311D3F"
       #backgroundColor: "#34BE82" 
       primaryColor: "#618812"
-      secondaryColor: "#000000"
+      secondaryColor: "#81b026"
   
   title: "Circle"
   description: Leadership coaching. 
@@ -71,7 +72,7 @@ params:
         Later I had my own coaching experience as a coacheewhich was amazing experience. An eye-opener.  
         
         I have learned by doing, and went for coaching training. I have been able to help managers and engineers with their growth journeys and this has given me tremendous satisfaction. Coaching is quite rewarding and humbling.  
-        Today I am here to be available for a bigger audience. <a href="#" data-bs-toggle="modal" data-bs-target="#bookme">Book a free call</a>, let's talk.
+        Today I am here to be available for a bigger audience. <a href="#" class="link-dark" data-bs-toggle="modal" data-bs-target="#bookme">Book a free call</a>, let's talk.
     - Name: "Contact"
       enable: true
       title: "Contact"
