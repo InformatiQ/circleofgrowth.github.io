@@ -45,11 +45,11 @@ params:
     enable: true
     title: "Ramez Hanna"
     subtitle: |-
-      Let's grow together
+      Become a better leader and rise above your challenges
     content: |-
-      Empowering you to overcome your challenges  
-      Helping leaders become their better selves.  
-      Unblock yourself and reach your potential       
+      I work with aspiring leaders to help them achieve their goals and improve their performance.  
+      Having spent 20+ years in tech working across different countries and cultures, I understand the challenges and difficulties of engineering leaders around the world.  
+      Whether you are an experienced leader looking to unlock your potential or taking your first leadership steps, coaching will help you get clarity and push in the right direction.    
     image: "/images/hero.png"
     button:
       enable: true
